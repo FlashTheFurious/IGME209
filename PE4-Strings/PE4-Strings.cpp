@@ -4,16 +4,23 @@
 #include <iostream>
 #include <string>
 #include <cstring>
+
 using namespace std;
 
 int main()
 {
     std::cout << "Hello World!\n";
 
-    char superC [] = "supercalifragilistic";
+    char superC [100] = "supercalifragilistic";
+    char expi[] = "expialidocious";
     cout << superC ;
     cout << "\n";
     cout << strlen(superC);
+    cout << "\n";
+    strcat_s(superC, sizeof superC,expi);
+    cout << superC;
+
+
 
 }
 
