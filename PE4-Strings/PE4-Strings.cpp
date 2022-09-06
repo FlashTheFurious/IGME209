@@ -20,7 +20,9 @@ int main()
     strcat_s(superC, sizeof superC,expi);
     cout << superC;
 
-
+    for (int z = 0; z < strlen(superC); z++) {
+        superC[z]
+    }
 
 }
 
