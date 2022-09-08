@@ -9,22 +9,27 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int iCounter = 0;
+	char* search;
 
-    char superC [100] = "supercalifragilistic";
-    char expi[] = "expialidocious";
-    cout << superC ;
-    cout << "\n";
-    //cout << "Length of the string " + strlen(superC);
-    cout << strlen(superC);
-    cout << "\n";
-    strcat_s(superC, sizeof superC,expi);
-    cout << superC;
+	std::cout << "Hello World!";
+	cout << "\n\n";
 
-    for (int z = 0; z < strlen(superC); z++) {
-        superC[z];
-    }
+	char superC[100] = "supercalifragilistic";
+	char expi[] = "expialidocious";
+	cout << superC;
+	cout << "\n\n";
+	//cout << "Length of the string " + strlen(superC);
+	cout << strlen(superC);
+	cout << "\n\n";
+	strcat_s(superC, sizeof superC, expi);
+	cout << superC;
 
+	for (int z = 0; z < strlen(superC); z++) {
+		superC[z];
+		search = strchr()
+	}
+	cout << "\n \n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
